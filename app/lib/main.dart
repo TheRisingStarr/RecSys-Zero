@@ -28,7 +28,7 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     double w = MediaQuery.of(context).size.width;
-    double itemwidth = 250;
+    double itemwidth = 180;
     double crossAxisCount = w / (itemwidth);
     return Scaffold(
       // /appBar: newMethod(),
